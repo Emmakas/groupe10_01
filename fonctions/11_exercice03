@@ -1,9 +1,8 @@
 def est_palindrome(mot):
-    return mot == moy[::-1]
+    return mot == mot[::-1]
 
 mot = input("Entrez un mot :")
 if est_palindrome (mot) :
     print("C'est un palindrome")
 else :
-    print ("Ce n'est pas un palindrome")
-    
+    print ("Ce n'est pas un palindrome") 
