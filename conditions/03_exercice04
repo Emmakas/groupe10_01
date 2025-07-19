@@ -1,0 +1,8 @@
+temps = float(input("Température (C) : "))
+
+if temps >=35:
+    print(" Très chaud, restez hydratés ")
+elif temps>=15:
+    print("Chaud, faites attention au soleil ")
+else :
+    print ("Il fait frais, couvrez-vous")
